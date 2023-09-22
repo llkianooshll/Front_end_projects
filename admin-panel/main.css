@@ -1,0 +1,127 @@
+body{
+    background-color  :#eee;
+}
+.slidebar{
+
+    height: 100%;
+    width: 170px;
+    background-image: linear-gradient(white,grey),url(images.jpg);
+}
+img{
+    width: 100px;
+    height: 100px ;
+    border-radius: 50%;
+    margin-top: 8px;
+    
+}
+
+.slide-i:hover{
+    background-color:rgba(128, 128, 128, 0.362);
+    border-radius: 5px;
+    transition: 0.5s;
+    transform: translate(5px);
+    border-radius: 5px;
+}
+.slidebar-top{
+    z-index: 0;
+    background-color:black;
+    margin-left: 170px;
+    width: 88.5%;
+}
+.inp:hover{
+    transition: 0.8s;
+    transform: scale(1.025);
+}
+.srch:hover{
+    color: gray;
+    transition: 1.5s;
+    transform: rotate(170deg);
+    
+}
+.out:hover{
+    color:whitesmoke;
+    transition: 0.8s;
+    transform: scale(1.2);
+}
+.cards{
+    background-color: black;
+    width: 295px;
+    height: 150px;
+}
+.cards:hover{
+    background-color:black;
+    transition: 1.2s;
+    transform: translateY(6px);
+}
+.crd-footer{
+    border-top-color:gray ;
+}
+span:hover .upd{
+    color: darkred;
+    transition: 1.5s;
+    transform: rotate(170deg);
+}
+.p-card{
+    background-color: black;
+    width: 100%;
+    height: 250px;
+}
+.p-card:hover{
+    background-color:black;
+    transition: 1.2s;
+    transform: translateY(7px);
+}
+.prgrs:hover{
+    transition: 1s;
+    transform: translateX(5px);
+}
+.prgrs:hover span{
+    color: black;
+    transition: 1s;
+    transform: scale(1.4);
+}
+.task{
+    border: none;
+    border-left: 6px solid darkred;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    height: 55px;
+    width: 100%;
+}
+.task span{
+    margin-bottom: 5px;
+}
+.task:hover{
+    transition: 1s;
+    transform: scale(1.025);
+}
+.task i{
+    color: gray;
+}
+.edt:hover{
+    color: darkgreen;
+}
+.trh:hover{
+    color: darkred;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+  }
+.round{
+    background-color: black;
+    border-radius: 80px;
+}
+.round:hover{
+    background-color: rgba(0, 0, 0, 0.756);
+}
+.butn:hover{
+    transition: 0.8s;
+    transform: scale(1.06);
+}
+.colps{
+    border-radius: 0%;
+    font-size: 2px;
+    height: 15;
+}

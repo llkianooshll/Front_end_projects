@@ -1,0 +1,9 @@
+document.querySelector("#tr1").addEventListener("click",(e)=>{
+    document.querySelector(".task1").remove("task1")
+})
+document.querySelector("#tr2").addEventListener("click",(e)=>{
+    document.querySelector(".task2").remove("task2")
+})
+document.querySelector("#tr3").addEventListener("click",(e)=>{
+    document.querySelector(".task3").remove("task3")
+})
