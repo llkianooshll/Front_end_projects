@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>DOOZ</title>
+</head>
+
+<body>
+  <div class="row justify-content-center" style="margin-top: 130px;">
+    <div class="col-4 doozBody" style="border-radius: 40px; box-shadow: 9px 9px 16px;">
+      <div class="row main-div" style="border-top: none; border-left: none; border-right: none;">
+        <div class="col-4 div-element div-element1" style="border-top: none;border-left:none ;">
+          <div class="text-center mt-5">
+            <i class="fa fa-close text-danger " style="font-size: 60px; display: none;" id="c-element1"></i>
+            <i class="fa fa-circle-o text-info" style="font-size: 60px; display: none;" id="cic-element1"></i>
+          </div>
+        </div>
+        <div class="col-4 div-element div-element2 " style="border-top: none;">
+          <div class="text-center mt-5">
+            <i class="fa fa-close text-danger" style="font-size: 60px; display:none" id="c-element2"></i>
+            <i class="fa fa-circle-o text-info" style="font-size: 60px; display: none;" id="cic-element2"></i>
+          </div>
+        </div>
+        <div class="col-4 div-element div-element3 " style="border-top: none; border-right: none;">
+          <div class="text-center mt-5">
+            <i class="fa fa-close text-danger" style="font-size: 60px; display:none" id="c-element3"></i>
+            <i class="fa fa-circle-o text-info" style="font-size: 60px; display: none;" id="cic-element3"></i>
+          </div>
+        </div>
+      </div>
+      <div class="row main-div" style="border-left: none; border-right: none;">
+        <div class="col-4 div-element div-element4 " style="border-left: none;">
+          <div class="text-center mt-5">
+            <i class="fa fa-close text-danger" style="font-size: 60px; display:none" id="c-element4"></i>
+            <i class="fa fa-circle-o text-info" style="font-size: 60px; display: none;" id="cic-element4"></i>
+          </div>
+        </div>
+        <div class="col-4 div-element div-element5 ">
+          <div class="text-center mt-5">
+            <i class="fa fa-close text-danger" style="font-size: 60px; display:none" id="c-element5"></i>
+            <i class="fa fa-circle-o text-info" style="font-size: 60px; display: none;" id="cic-element5"></i>
+          </div>
+        </div>
+        <div class="col-4 div-element div-element6 " style="border-right: none;">
+          <div class="text-center mt-5">
+            <i class="fa fa-close text-danger" style="font-size: 60px; display:none" id="c-element6"></i>
+            <i class="fa fa-circle-o text-info" style="font-size: 60px; display: none;" id="cic-element6"></i>
+          </div>
+        </div>
+      </div>
+      <div class="row main-div" style="border-left: none; border-right: none; border-bottom: none;">
+        <div class="col-4 div-element div-element7 " style="border-bottom: none; border-left: none;">
+          <div class="text-center mt-5">
+            <i class="fa fa-close text-danger" style="font-size: 60px; display:none" id="c-element7"></i>
+            <i class="fa fa-circle-o text-info" style="font-size: 60px; display: none;" id="cic-element7"></i>
+          </div>
+        </div>
+        <div class="col-4 div-element div-element8 " style="border-bottom: none;">
+          <div class="text-center mt-5">
+            <i class="fa fa-close text-danger" style="font-size: 60px; display:none;" id="c-element8"></i>
+            <i class="fa fa-circle-o text-info" style="font-size: 60px; display: none;" id="cic-element8"></i>
+          </div>
+        </div>
+        <div class="col-4 div-element div-element9 " style="border-bottom: none; border-right: none;">
+          <div class="text-center mt-5">
+            <i class="fa fa-close text-danger" style="font-size: 60px; display:none" id="c-element9"></i>
+            <i class="fa fa-circle-o text-info" style="font-size: 60px; display: none;" id="cic-element9"></i>
+          </div>
+        </div>
+      </div>
+      <h1 id="win" class="text-center mt-3" style="display: none;"><div class="badge p-3 text-white" style="border-radius:20px; background-color: rgba(0, 128, 0, 0.785);">YOU WON!</div></h1>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
