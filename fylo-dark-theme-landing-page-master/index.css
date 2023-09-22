@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+}
+.nv-a{
+    border-radius: 10px;
+    padding: 8px;
+}
+.nv-a:hover{
+    background-color: rgba(255, 255, 255, 0.495);
+}
+.btn-inf:hover{
+    transform: scale(1.06);
+    transition: 0.4s;
+    background-color: #7addee7e;
+}
+.land-img:hover{
+    transition: 0.9s;
+    transform: scale(1.03);
+}
+.ic:hover{
+    color: darkgreen;
+    transition: 1s;
+    transform:rotate(40deg);
+}
+.txt-s-b{
+    color: rgba(255, 255, 255, 0.453);
+}
+.txt-s-b:hover{
+    color: rgba(255, 255, 255, 0.756);
+}
+.b-link{
+    border-radius: 8px; 
+    padding: 4px;
+    border: 1px solid darkgreen;
+    color: rgb(39, 192, 39);
+}
+.b-link:hover{
+    color: darkgreen;
+}
+.img-crd{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+.card{
+    background: none;
+    border-radius: 15px;
+    background-color: #0c0c22;
+}
+.img-cpt{
+    font-size: 10px;
+}
+.card:hover{
+    transition: 0.7s;
+    transform: scale(1.02);
+    background-color: #121237;
+}
+.card-footer:hover .img-crd{
+    transition: 1.5s;
+    transform:rotate(360deg);
+}
