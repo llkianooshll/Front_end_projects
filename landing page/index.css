@@ -1,0 +1,172 @@
+
+.head{
+  background-color: #8d6dc4;
+}
+@media screen and (max-width: 450px)
+{
+  .generative-txt{
+    font-size: 65px;
+  }
+  .word-piece-spn{
+    font-size: 20px;
+  }
+  .word-piece{ 
+    font-size: 15px !important; 
+  }
+}
+.word-piece{
+  font-size: 30px;
+  border: 2px solid black ;border-style: dotted;
+}
+.word-piece-spn{
+  color: black
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+  color: darkred;
+}
+.sec-2-card{
+  z-index: 2;
+  box-shadow: 5px 5px 10px 1px black;
+  margin-top: 500px;
+}
+#sec-2-txt{
+  margin-top: 400px;
+}
+#sec-2-txt-2{
+  margin-top: 400px;
+}
+#sec-2-txt-3{
+  margin-top: 400px;
+}
+#sec-2-txt-4{
+  margin-top: 400px;
+  font-size: 29px;
+}
+#sec-2-txt-5{
+  margin-top: 400px;
+  font-size: 29px;
+}
+#sec-2-txt-6{
+  margin-top: 400px;
+  font-size: 29px;
+}
+#hover-sec{
+  z-index: -1;
+}
+#hover-sec-2{
+  z-index: -1;
+}
+#hover-sec-3{
+  z-index: -1;
+}
+#hover-sec-4{
+  z-index: -1;
+}
+#hover-sec-5{
+  z-index: -1;
+}
+#hover-sec-6{
+  z-index: -1;
+}
+.footer-txt{
+  font-size: 20px;
+}
+#square-1:hover{
+  background-color: darkblue;
+}
+#square-2:hover{
+  background-color: darkcyan;
+}
+#square-3:hover{
+  background-color: darkred;
+}
+/* The animation code */
+@keyframes example {
+  0% {margin: 0px 5px;}
+  100% {margin: 0px 9px;}
+}
+
+/* The element to apply the animation to */
+.word-piece {
+  margin: 9px;
+  animation-name: example;
+  animation-duration: 5s;
+}
+p{
+  direction: rtl;
+  text-align: justify;
+}
+h6{
+  direction: rtl;
+  text-align: justify;
+}
+input{
+  padding-right: 25px;
+  direction: rtl;
+  text-align: justify;
+  height: 50px;
+  background: none;
+  border: none;
+  background-color: white;
+  border-radius: 18px;
+}
+button:hover{
+  transform: scale(1.04);
+  transition: 0.5s;
+}
+@keyframes sc-6 {
+  0% {background-color: white; color: black;}
+  100% {background-color: rgba(59, 59, 254, 0.875); color: azure;}
+}
+.sc-6{
+  animation-name: sc-6;
+  animation-duration: 5s;
+  color: white;
+  background-color: rgba(59, 59, 254, 0.875)
+}
+@keyframes sc-7 {
+  0% {background-color: white; color: black;}
+  100% {background-color: rgba(55, 201, 238, 0.875); color: azure;}
+}
+.sc-7{
+  animation-name: sc-7;
+  animation-duration: 5s;
+  color: white;
+  background-color: rgba(55, 201, 238, 0.875)
+}
+@keyframes sc-8 {
+  0% {background-color: white; color: black;}
+  100% {background-color: rgba(55, 122, 238, 0.918); color: azure;}
+}
+.sc-8{
+  animation-name: sc-8;
+  animation-duration: 5s;
+  color: white;
+  background-color: rgba(55, 122, 238, 0.918);
+}
+@keyframes sc-9 {
+  0% {background-color: white; color: black;}
+  100% {background-color: rgba(50, 12, 174, 0.918); color: azure;}
+}
+.sc-9{
+  animation-name: sc-9;
+  animation-duration: 5s;
+  color: white;
+  background-color: rgba(50, 12, 174, 0.918);
+}
+@keyframes sc-10 {
+  0% {background-color: white; color: black;}
+  100% {background-color: rgba(55, 184, 175, 0.918); color: azure;}
+}
+.sc-10{
+  animation-name: sc-10;
+  animation-duration: 5s;
+  color: white;
+  background-color: rgba(55, 184, 175, 0.918);
+}
+
