@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>CONTACT</title>
+    <style>
+        body {
+            font-size: 1em;
+        }
+
+        section {
+            background-color: #92aa90c9;
+            height: 45px;
+            width: 100%;
+
+        }
+
+        .navbarr {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            overflow: hidden;
+        }
+
+        .navbarr a {
+            float: left;
+            display: block;
+            color: rgba(0, 0, 0, 0.645);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbarr a:hover {
+            color: #92aa90c9;
+        }
+
+        .navbarr a.active {
+            color: #92aa90c9;
+        }
+
+        .jme {
+            font-size: 1.5em;
+            border: 8px solid rgba(0, 0, 0, 0.7);
+        }
+
+        .center-txt {
+            font-size: 5em;
+        }
+
+        .row-one {
+            margin-top: 200px;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        button {
+            color: white;
+            border: none;
+            background-color: #425441;
+            width: 200px;
+            height: 60px;
+        }
+
+        button:hover {
+            transition: 0.4s;
+            background-color: #42544159;
+            color: rgba(0, 0, 0, 0.703);
+        }
+
+        @media screen and (max-width: 600px) {
+            .load-btn {
+                width: 180px;
+                height: 40px;
+            }
+
+            .navbarr {
+                margin-bottom: 100px;
+            }
+
+            .navbarr a {
+                margin-left: 15px;
+                float: none;
+                display: block;
+
+            }
+
+            .navbarr a:hover {
+                border-radius: 8px;
+                background-color: rgba(0, 0, 0, 0.677);
+            }
+
+            .jme {
+                font-size: 1.4em;
+                border: none;
+            }
+
+            .center-txt {
+                font-size: 3em;
+            }
+
+            .row-one {
+                margin-top: 50px;
+            }
+
+            button {
+                width: 130px;
+                height: 50px;
+            }
+        }
+
+        input {
+            width: 90%;
+            border: none;
+            background: none;
+            border-bottom: 1px solid black;
+        }
+
+        input:hover {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.208);
+        }
+
+        input:focus {
+            outline: none;
+            border-bottom: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section>
+
+        </section>
+        <div class="navbarr">
+            <span>
+                <a style="font-family: serif;color: black;" href="#" class="jme"><b>J M E <span class="mx-2"></span>J e
+                        w e l l e
+                        r
+                        y</b></a>
+                <a href="home.html" class="active mt-3">HOME</a>
+                <a href="shop.html" class="mt-3">SHOP</a>
+                <a href="collections.html" class="mt-3">COLLECTIONS</a>
+                <a href="about.html" class="mt-3">ABOUT</a>
+                <a href="contact.html" class="mt-3">CONTACT</a>
+            </span>
+        </div>
+    </header>
+    <div class="row row-one justify-content-center">
+        <div class="col-md-6">
+            <h1 class="center-txt text-center" style="color: #3e533c"><b>C O N T A C T</b>
+            </h1>
+        </div>
+    </div>
+    <div class="my-2 my-md-5 row justify-content-center mt-5">
+        <div class="col-8">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                    <p>
+                        If you have questions or special <br>enquiries, you're welcome to <br>contact me or fill out
+                        this form
+                    </p>
+                    <p style="color: rgba(0, 0, 0, 0.732);"><b>Judith M Armstrong <br>
+
+                            jmejewellery@gmail.com</b></p>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-12 col-md-6">
+                    <div class="row my-2">
+                        <div class="my-2 my-md-0 col-md-6">
+                            <div class="mb-2"><span style="font-family: serif;"><i>Enter Your Name *</i></span></div>
+                            <input id="nameInp" placeholder="Full Name" name="text" type="text">
+                        </div>
+                        <div class="my-2 my-md-0 col-md-6">
+                            <div class="mb-2"><span style="font-family: serif;"><i>Enter Your Email *</i></span></div>
+                            <input id="emailInp" placeholder="Email Address" name="email" type="email">
+                        </div>
+                    </div>
+                    <div class="my-4">
+                        <div class="mb-2"><span style="font-family: serif;"><i>Enter Your Phone *</i></span></div>
+                        <input id="numberInp" style="width: 95%;" placeholder="Phone Number" type="number"
+                            name="number">
+                    </div>
+                    <div class="my-4">
+                        <div class="mb-2"><span style="font-family: serif;"><i>Enter Your Message *</i></span></div>
+                        <input id="textInp" style="width: 95%;" class="mt-2" placeholder="Enter Your Request"
+                            type="text" name="text">
+                    </div>
+                    <div class="text-center"><button id="saveButton"><b>SUBMIT</b></button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container mt-5" style="border-top: 3px solid black;">
+        <div class="row pt-4">
+            <div class="col-2">
+                <b>JMEJEWELLERY</b>
+                <ul>
+                    <li class="my-4"><a class="text-secondary" href="#">HOME</a></li>
+                    <li class="my-4"><a class="text-secondary" href="#">SHOP</a></li>
+                    <li class="my-4"><a class="text-secondary" href="#">COLLECTIONS</a></li>
+                    <li class="my-4"><a class="text-secondary" href="#">COMMISSIONS</a></li>
+                    <li class="my-4"><a class="text-secondary" href="#">ABOUT</a></li>
+                    <li class="my-4"><a class="text-secondary" href="#">CONTACT</a></li>
+                    <li class="my-4"><a class="text-secondary" href="#">Store Policy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <b class="text-">HELP</b>
+                <ul>
+                    <li class="my-4"><a class="text-secondary" href="#">SHIPPING & RETURNS</a></li>
+                    <li class="my-4"><a class="text-secondary" href="#">STORE POLICY
+                        </a></li>
+                    <li class="my-4"><a class="text-secondary" href="#">PAYMENT METHODS
+                        </a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <b>CONTACT</b>
+                <div class="mt-4">
+                    <a class="text-secondary" href="#">jmejewellery@gmail.com</a>
+                </div>
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+    </footer>
+
+
+
+    <script>
+        const nameInp = document.getElementById('nameInp');
+        const emailInp = document.getElementById('emailInp');
+        const numberInp = document.getElementById('numberInp');
+        const textInp = document.getElementById('textInp');
+        const saveButton = document.getElementById('saveButton');
+
+        // Load input values from localStorage if available
+        nameInp.value = localStorage.getItem('name') || '';
+        emailInp.value = localStorage.getItem('email') || '';
+        numberInp.value = localStorage.getItem('phonenumber') || '';
+        textInp.value = localStorage.getItem('message') || '';
+
+        // Save input values to localStorage on button click
+        saveButton.addEventListener('click', () => {
+            const value1 = nameInp.value;
+            const value2 = emailInp.value;
+            const value3 = numberInp.value;
+            const value4 = textInp.value;
+
+            localStorage.setItem('name', value1);
+            localStorage.setItem('email', value2);
+            localStorage.setItem('phonenumber', value3);
+            localStorage.setItem('message', value4);
+        });
+
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

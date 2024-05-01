@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="collections.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>COLLECTIONS</title>
+
+    <style>
+        body {
+            font-size: 1em;
+        }
+
+        section {
+            background-color: #92aa90c9;
+            height: 45px;
+            width: 100%;
+
+        }
+
+        .navbarr {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            overflow: hidden;
+        }
+
+        .navbarr a {
+            float: left;
+            display: block;
+            color: rgba(0, 0, 0, 0.645);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbarr a:hover {
+            color: #92aa90c9;
+        }
+
+        .navbarr a.active {
+            color: #92aa90c9;
+        }
+
+        .jme {
+            font-size: 1.5em;
+            border: 8px solid rgba(0, 0, 0, 0.7);
+        }
+
+        .center-txt {
+            font-size: 5em;
+        }
+
+        .row-one {
+            margin-top: 200px;
+        }
+
+        .card-body {
+            display: none;
+        }
+
+        .card-title-drawer {
+            display: none;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: black;
+            padding: 10px;
+            transition: 4s;
+        }
+
+        .card:hover .card-title-drawer {
+            display: block;
+        }
+
+        a {
+            color: black;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: none;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        .slider {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .slides {
+            display: flex;
+        }
+
+        .slide {
+            display: none;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .photo {
+            flex: 0 0 33.33%;
+            padding: 20px;
+        }
+
+        img {
+            width: 100%;
+            height: 400px;
+        }
+
+        .caption {
+            text-align: center;
+            padding: 10px;
+            color: black;
+        }
+
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+
+        .prev {
+            left: 0;
+        }
+
+        .next {
+            right: 0;
+        }
+
+        @media screen and (max-width: 600px) {
+            .navbarr {
+                margin-bottom: 100px;
+            }
+
+            .navbarr a {
+                margin-left: 15px;
+                float: none;
+                display: block;
+
+            }
+
+            .navbarr a:hover {
+                border-radius: 8px;
+                background-color: rgba(0, 0, 0, 0.677);
+            }
+
+            .jme {
+                font-size: 1.4em;
+                border: none;
+            }
+
+            .center-txt {
+                font-size: 3em;
+            }
+
+            .row-one {
+                margin-top: 50px;
+            }
+
+            .img-caption {
+                text-align: center;
+            }
+
+            .card {
+                width: 60%;
+                margin-left: 100px;
+            }
+
+            img {
+                width: 100%;
+                height: 200px;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section>
+
+        </section>
+        <div class="navbarr">
+            <span>
+                <a style="font-family: serif;color: black;" href="#" class="jme"><b>J M E <span class="mx-2"></span>J e
+                        w e l l e
+                        r
+                        y</b></a>
+                <a href="home.html" class="active mt-3">HOME</a>
+                <a href="shop.html" class="mt-3">SHOP</a>
+                <a href="collections.html" class="mt-3">COLLECTIONS</a>
+                <a href="about.html" class="mt-3">ABOUT</a>
+                <a href="contact.html" class="mt-3">CONTACT</a>
+            </span>
+        </div>
+    </header>
+    <div class="row row-one justify-content-center">
+        <div class="col-md-6">
+            <h1 class="center-txt text-center" style="color: #3e533c;font-family: serif;">Australian Collection
+            </h1>
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide">
+                        <div class="row">
+                            <div class="photo">
+                                <img src="https://picsum.photos/id/1/200/300
+                                        " alt="Image 1">
+                                <div class="caption"><b>Carmichealia Brooch</b><br>$85.00</div>
+                            </div>
+                            <div class="photo">
+                                <img src="https://picsum.photos/200/300" alt="Image 2">
+                                <div class="caption"><b>Lily Pendant</b> <br>$65.00</div>
+                            </div>
+                            <div class="photo">
+                                <img src="https://picsum.photos/200/300?grayscale
+                                        " alt="Image 3">
+                                <div class="caption"><b>Lily Earing</b><br>$99.00</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Add more slides with rows of three photos and captions here -->
+
+                    <div class="slide">
+                        <div class="row">
+                            <div class="photo">
+                                <img src="https://picsum.photos/200/300?grayscale
+                                        " alt="Image 4">
+                                <div class="caption"><b>Lily Pendant</b> <br>$65.00</div>
+                            </div>
+                            <div class="photo">
+                                <img src="https://picsum.photos/200/300?grayscale
+                                        alt=" Image 5">
+                                <div class="caption"><b>Lily Earing</b><br>$99.00</div>
+                            </div>
+                            <div class="photo">
+                                <img src="https://picsum.photos/200/300?grayscale
+                                        " alt="Image 6">
+                                <div class="caption"><b>Carmichealia Brooch</b><br>$85.00</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="prev" onclick="moveSlide(-1)">❮</div>
+                <div class="next" onclick="moveSlide(1)">❯</div>
+            </div>
+        </div>
+    </div>
+    <footer class="container mt-5" style="border-top: 3px solid black;">
+        <div class="row pt-4">
+            <div class="col-2">
+                <b>JMEJEWELLERY</b>
+                <ul>
+                    <li class="my-4"><a class="text-secondary" href="#">HOME</a></li>
+                    <li class="my-4"><a class="text-secondary" href="#">SHOP</a></li>
+                    <li class="my-4"><a class="text-secondary" href="#">COLLECTIONS</a></li>
+                    <li class="my-4"><a class="text-secondary" href="#">COMMISSIONS</a></li>
+                    <li class="my-4"><a class="text-secondary" href="#">ABOUT</a></li>
+                    <li class="my-4"><a class="text-secondary" href="#">CONTACT</a></li>
+                    <li class="my-4"><a class="text-secondary" href="#">Store Policy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <b class="text-">HELP</b>
+                <ul>
+                    <li class="my-4"><a class="text-secondary" href="#">SHIPPING & RETURNS</a></li>
+                    <li class="my-4"><a class="text-secondary" href="#">STORE POLICY
+                        </a></li>
+                    <li class="my-4"><a class="text-secondary" href="#">PAYMENT METHODS
+                        </a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <b>CONTACT</b>
+                <div class="mt-4">
+                    <a class="text-secondary" href="#">jmejewellery@gmail.com</a>
+                </div>
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        var slideIndex = 1;
+
+        showSlides(slideIndex);
+
+        function moveSlide(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("slide");
+
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+        }
+    </script>
+
+</body>
+
+</html>
