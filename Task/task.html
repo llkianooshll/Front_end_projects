@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK</title>
+
+    <style>
+        .cards {
+            position: fixed;
+            display: flex;
+            flex-direction: row;
+            margin: 20% 20%;
+
+        }
+
+        .card {
+            flex-direction: column;
+            position: relative;
+            width: 260px;
+            height: 150px;
+            background-color: rgb(24, 71, 124);
+            z-index: 1;
+            display: inline-block;
+            margin: 0px 15px;
+        }
+
+        .card:hover {
+            transform: translateY(-25px);
+            transition: 0.3s;
+        }
+
+
+        .child1 {
+            color: white;
+            text-align: center;
+            position: absolute;
+            top: 125px;
+            left: 15px;
+            width: 260px;
+            height: 25px;
+            background-color: rgba(44, 151, 187, 0.992);
+            z-index: 0;
+        }
+
+        .child2 {
+            color: white;
+            text-align: center;
+            position: absolute;
+            left: 305px;
+            top: 125px;
+            width: 260px;
+            height: 25px;
+            background-color: rgba(44, 151, 187, 0.992);
+            z-index: 0;
+        }
+
+        .child3 {
+            color: white;
+            text-align: center;
+            position: absolute;
+            left: 595px;
+            top: 125px;
+            width: 260px;
+            height: 25px;
+            background-color: rgba(44, 151, 187, 0.992);
+            z-index: 0;
+        }
+
+        @media only screen and (max-width: 600px) {
+            body {
+                overflow-x: hidden;
+            }
+
+            .cards {
+                left: 25%;
+                margin: 10px 0px;
+                position: relative;
+                flex-direction: column;
+            }
+
+            .card {
+                margin: 30px 0px;
+            }
+
+            .child1 {
+                justify-content: center;
+                position: absolute;
+                z-index: 0;
+                display: flex;
+                left: 0%;
+                top: 155px;
+            }
+
+            .child2 {
+                justify-content: center;
+                position: absolute;
+                z-index: 0;
+                display: flex;
+                left: 0%;
+                top: 365px;
+
+            }
+
+            .child3 {
+                justify-content: center;
+                position: absolute;
+                z-index: 0;
+                display: flex;
+                top: 575px;
+                left: 0%;
+
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="cards">
+        <div class="card"></div>
+        <div class="child1">
+            hossein.hp.1394@gmail.com
+        </div>
+        <div class="card"></div>
+        <div class="child2">
+            hossein.hp.1394@gmail.com
+        </div>
+        <div class="card"></div>
+        <div class="child3">
+            hossein.hp.1394@gmail.com
+        </div>
+    </div>
+
+</body>
+
+</html>
